@@ -1,0 +1,92 @@
+
+h1{
+    color: #113182;
+}
+.btn.btn-primary{
+    background-color: #113182;
+    text-align: center;
+    
+    color: white; 
+}
+
+#button {
+    /* Other button styles */
+    border-radius: 15px; 
+  }
+  
+
+td {
+    background-color: white; 
+     width:500px; 
+     height: 200px; 
+    border: 6px solid black;
+    text-align: center;
+    font-size: 80px;
+    
+} 
+
+
+
+.table.table-bordered {
+    background-color:white;
+     width: 500px;  
+     height: 200px; 
+    border: 6px solid black;
+     text-align: center; 
+    font-size: 80px; 
+ }
+
+.col-4.cell{
+    background-color:white;
+ 
+  
+    border: 6px solid black
+} 
+ 
+
+h4{
+    text-align: center;
+    color: #113182;
+
+
+}
+
+
+
+/* Custom CSS for the <h1> element */
+h1 {
+    font-weight: bold;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Custom CSS for the jumbotron class */
+.jumbotron {
+    background-color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center align the content */
+}
+
+/* Custom CSS for the <h4> element inside jumbotron */
+.jumbotron h4 {
+    font-weight: bold;
+    margin-top: 10px; /* Add some spacing above the text */
+}
+
+
+.table {
+    margin-top: 20px;
+}
+
+
+
+
+
+.game-start-prompt {
+    text-align: center;
+    color: #113182;
+}

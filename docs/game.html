@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="game.css">
+    <style>
+      
+
+        /* Custom CSS for the <h1> element */
+            h1 {
+                font-weight: bold;
+                border: none;
+                border: none;
+                margin: 0; /* Reset margin to remove any spacing */
+                padding: 0; /* Reset padding to remove any spacing */
+                background-color: white;
+            }
+    
+               /* custom css for jumbotron class */
+               .jumbotron{
+                background-color: white;
+                border: none;
+                border: none;
+                margin: 0; /* Reset margin to remove any spacing */
+                padding: 0;
+            }
+            h2{
+                font-weight: bold;
+                color: #113182;
+            }
+    
+            
+    </style>
+</head>
+<body>
+    <!-- Container for the game -->
+    <div class="container">
+        <!-- Jumbotron for the welcome message -->
+        <div class="jumbotron">
+            
+            <h1>Welcome to Tic Tac Toe!</h1>
+            <h4 class="game-start-prompt"><b>Get ready to play!</b></h4>
+        </div>
+
+        <!-- Restart button -->
+        <button id="restartButton" type="button" class="btn btn-primary btn-lg">Restart!</button>
+
+        <!-- Game board table -->
+        <table class="table table-bordered">
+            <!-- Table rows and cells for the Tic Tac Toe grid -->
+            <p></p>
+            <tr>
+                <td class="col-4 cell" id="one"></td>
+                <td class="col-4 cell" id="two"></td>
+                <td class="col-4 cell" id="three"></td>
+            </tr>
+
+            <tr>
+                <td class="col-4 cell" id="four"></td>
+                <td class="col-4 cell" id="five"></td>
+                <td class="col-4 cell" id="six"></td>
+            </tr>
+
+            <tr>
+                <td class="col-4 cell" id="seven"></td>
+                <td class="col-4 cell" id="eight"></td>
+                <td class="col-4 cell" id="nine"></td>
+            </tr>
+            
+        <!-- </tbody> -->
+        </table>
+    </div>
+
+    <!-- JavaScript script tag -->
+    <script src="game.script.js"></script>
+</body>
+</html>
