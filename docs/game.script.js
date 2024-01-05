@@ -62,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
             gameStartPrompt.textContent = "This is a Draw!";
         }
     }
+    
 
     // Clear all the squares
     function clearBoard() {
