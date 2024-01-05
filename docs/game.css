@@ -11,7 +11,12 @@ h1{
 
 #button {
     /* Other button styles */
-    border-radius: 15px; 
+    border-radius: 30px; 
+  }
+
+
+  #restartButton {
+    border-radius: 30px;
   }
   
 

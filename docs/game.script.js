@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 squares[index].style.color = isFlashing ? flashingColor : 'black';
             }
             isFlashing = !isFlashing;
-        }, 400);
+        }, 200);
 
         setTimeout(function () {
             clearInterval(flashInterval);
