@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to toggle text color for a specific line
     function toggleTextColor(line) {
-        const flashingColor = currentMarker === 'X' ? '#45f542' : '#45f542';
+        const flashingColor = currentMarker === 'X' ? '#9898e6' : '#9898e6';
         let isFlashing = false;
 
         const flashInterval = setInterval(function () {
