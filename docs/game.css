@@ -1,4 +1,14 @@
 
+
+/* Media Query for screens with a minimum width of 430 pixels */
+@media only screen and (min-width: 430px) {
+    .jumbotron {
+        margin-bottom: 60px; /* Adjust the margin-bottom value as needed */
+    }
+}
+
+
+
 h1{
     color: black;
 }
@@ -9,10 +19,7 @@ h1{
     color: white; 
 }
 
-#button {
-    /* Other button styles */
-    border-radius: 30px; 
-  }
+
 
 
   #restartButton {
@@ -46,20 +53,8 @@ body {
  }
 
 .col-4.cell{
-    
- 
-  
     border: 6px solid black
 } 
- 
-
-h4{
-    text-align: center;
-    color: #113182;
-
-
-}
-
 
 
 /* Custom CSS for the <h1> element */
@@ -97,5 +92,5 @@ h1 {
 
 .game-start-prompt {
     text-align: center;
-    color: #113182;
+    color: black;
 }
