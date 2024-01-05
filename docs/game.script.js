@@ -101,3 +101,6 @@ document.addEventListener("DOMContentLoaded", function () {
     handleGameLogic();
     restartButton.addEventListener("click", clearBoard);
 });
+
+
+

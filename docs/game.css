@@ -25,10 +25,14 @@ td {
     
 } 
 
+/* changing the background color */
 
+body {
+    background-color:#9898e6;
+}
 
 .table.table-bordered {
-    background-color:white;
+    background-color:black;
      width: 500px;  
      height: 200px; 
     border: 6px solid black;
@@ -37,7 +41,7 @@ td {
  }
 
 .col-4.cell{
-    background-color:white;
+    
  
   
     border: 6px solid black
@@ -59,12 +63,12 @@ h1 {
     border: none;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: #9898e6;
 }
 
 /* Custom CSS for the jumbotron class */
 .jumbotron {
-    background-color: white;
+    background-color: #9898e6;
     border: none;
     margin: 0;
     padding: 0;
